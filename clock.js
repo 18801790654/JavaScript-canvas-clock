@@ -50,10 +50,10 @@ var rem = width / 200;
  	ctx.fillStyle = "#c14543";
  	var rad = 2 * Math.PI / 60 * second;
  	ctx.rotate(rad);
- 	ctx.moveTo(2 * rem, 20 * rem);
- 	ctx.lineTo(-2 * rem, 20 * rem);
- 	ctx.lineTo(-1 * rem, -r + 18 * rem);
- 	ctx.lineTo(1 * rem, -r + 18 * rem);
+ 	ctx.moveTo(2, 20 * rem);
+ 	ctx.lineTo(-2, 20 * rem);
+ 	ctx.lineTo(-1, -r + 18 * rem);
+ 	ctx.lineTo(1, -r + 18 * rem);
  	ctx.fill();
  	ctx.restore();
  }
